@@ -1,0 +1,5 @@
+package com.capgemini.springhibernate.controller;
+
+public class PersonController {
+
+}

@@ -1,0 +1,7 @@
+package com.capgemini.bankapp.dao;
+
+@Repository
+public class BankAccountDaoImpl {
+
+	
+}

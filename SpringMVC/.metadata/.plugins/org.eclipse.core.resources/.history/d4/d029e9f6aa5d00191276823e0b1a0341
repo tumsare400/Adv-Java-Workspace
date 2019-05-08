@@ -1,0 +1,5 @@
+package com.capgemini.spring.mvc.exception;
+
+public class AccountNotFoundException extends Exception {
+
+}

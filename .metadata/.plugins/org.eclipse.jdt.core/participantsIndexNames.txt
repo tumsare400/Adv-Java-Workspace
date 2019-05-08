@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2096588638.index
+\RateConversion\src
+C:\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1309700553.index
+\Bank-App-Web\src

@@ -1,0 +1,10 @@
+package com.capgemini.demoHibernate.dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.capgemini.demoHibernste.person.Person;
+
+@Repository
+public interface PersonDao extends  JpaRepository<Person, Integer>{
+
+}

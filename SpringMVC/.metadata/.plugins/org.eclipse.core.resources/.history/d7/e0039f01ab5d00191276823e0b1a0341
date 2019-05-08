@@ -1,0 +1,5 @@
+package com.capgemini.spring.mvc.dao;
+
+public interface BankAccountDao {
+
+}

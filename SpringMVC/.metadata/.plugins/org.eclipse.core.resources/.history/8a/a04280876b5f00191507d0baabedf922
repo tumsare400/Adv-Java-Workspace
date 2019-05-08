@@ -1,0 +1,8 @@
+package com.capgemini.bankapp.controller;
+
+@Controller
+@RequestMapping("/bank")
+public class BankController {
+
+	
+}

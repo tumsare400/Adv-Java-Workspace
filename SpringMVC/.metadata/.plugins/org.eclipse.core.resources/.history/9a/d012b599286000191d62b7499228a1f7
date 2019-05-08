@@ -1,0 +1,13 @@
+package com.capgemini.springhibernate.service;
+
+import com.capgemini.demoHibernste.person.Person;
+
+public class personServiceImpl implements PersonService{
+
+	@Override
+	public void addnewPerson(Person person) {
+		
+		
+	}
+
+}

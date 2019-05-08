@@ -1,0 +1,5 @@
+package com.capgemini.springhibernate.service;
+
+public class personServiceImpl implements PersonService{
+
+}

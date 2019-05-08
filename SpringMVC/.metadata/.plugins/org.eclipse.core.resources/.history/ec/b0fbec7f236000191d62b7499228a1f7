@@ -1,0 +1,6 @@
+package com.capgemini.demoHibernste.person;
+@Entity
+public class Person {
+	@Id
+ private int personId;
+}

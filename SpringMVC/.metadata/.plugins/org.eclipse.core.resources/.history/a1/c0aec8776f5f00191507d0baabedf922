@@ -1,0 +1,86 @@
+package com.capgemini.bankapp.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.capgemini.bankapp.client.BankAccount;
+import com.capgemini.bankapp.exception.AccountNotFoundException;
+import com.capgemini.bankapp.exception.LowBalanceException;
+
+@Service
+public class BankAccountServiceImpl implements BankAccountService {
+
+	@Autowired
+	private BankAccountDao bankAccount;
+	
+	@Override
+	public double checkBalance(long accountId) throws AccountNotFoundException {
+		
+		return 0;
+	}
+
+	@Override
+	public double withdraw(long accountId, double amount) throws AccountNotFoundException, LowBalanceException {
+		
+		return 0;
+	}
+
+	@Override
+	public double deposit(long accountId, double amount) throws AccountNotFoundException {
+		
+		return 0;
+	}
+
+	@Override
+	public boolean deleteBankAccount(long accountId) throws AccountNotFoundException {
+	
+		return false;
+	}
+
+	@Override
+	public boolean addNewBankAccount(BankAccount account) {
+		
+		return false;
+	}
+
+	@Override
+	public List<BankAccount> findAllBankAccountsDetails() {
+		
+		return null;
+	}
+
+	@Override
+	public BankAccount searchAccountDetails(long accountId) throws AccountNotFoundException {
+	
+		return null;
+	}
+
+	@Override
+	public double fundTransfer(long fromAccount, long toAccount, double amount)
+			throws AccountNotFoundException, LowBalanceException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public boolean updateBankAccountDetails(long accountId, String accountHolderName, String accountType)
+			throws AccountNotFoundException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public List<BankAccount> findAllBankAccountsDetails() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public BankAccount searchAccountDetails(long accountId) throws AccountNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	  
+}

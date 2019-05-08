@@ -1,0 +1,6 @@
+package com.capgemini.bankapp.client;
+
+@Component
+public class BankAccountClient {
+
+}

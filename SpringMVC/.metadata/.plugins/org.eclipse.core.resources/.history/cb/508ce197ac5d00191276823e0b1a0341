@@ -1,0 +1,5 @@
+package com.capgemini.spring.mvc.service;
+
+public class BankAccountServiceImpl {
+
+}

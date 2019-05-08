@@ -1,0 +1,5 @@
+package com.capgemini.springhibernate.dao;
+
+public interface PersonDao {
+
+}

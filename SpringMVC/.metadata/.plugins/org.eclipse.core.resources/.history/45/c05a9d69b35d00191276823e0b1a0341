@@ -1,0 +1,28 @@
+package com.capgemini.spring.mvc.service;
+
+import com.capgemini.spring.mvc.controller.BankAccountController;
+import com.capgemini.spring.mvc.dao.BankAccountDao;
+
+public class BankAccountServiceImpl implements BankAccountService {
+	private BankAccountDao bankAccountDao; 
+	 
+	 
+	 	public BankAccountServiceImpl(BankAccountDao bankAccountDao) { 
+	 
+	 
+	 		this.bankAccountDao = bankAccountDao; 
+	 
+	 
+	 	} 
+	 
+	 	@Override 
+	 	public boolean addNewBankAccount(BankAccountController account) { 
+	 		boolean result = bankAccountDao.addNewBankAccount(account); 
+	 		//if (result) 
+				//DbUtil.commmit(); 
+			return result; 
+ 
+	 
+ 	} 
+
+}

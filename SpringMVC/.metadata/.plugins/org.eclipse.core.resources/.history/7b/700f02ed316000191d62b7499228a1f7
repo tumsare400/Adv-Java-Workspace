@@ -1,0 +1,5 @@
+package com.capgemini.demoHibernste.person;
+
+public class Person {
+
+}

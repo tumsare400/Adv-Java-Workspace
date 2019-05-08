@@ -1,0 +1,10 @@
+package com.capgemini.spring.mvc.service;
+
+import com.capgemini.spring.mvc.client.BankAccountClient;
+import com.capgemini.spring.mvc.controller.BankAccountController;
+
+public interface BankAccountService {
+	
+	public boolean addNewBankAccount(BankAccountClient account);
+
+}

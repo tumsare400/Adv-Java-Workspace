@@ -1,0 +1,19 @@
+package com.capgemini.springhibernate.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.capgemini.demoHibernste.person.Person;
+import com.capgemini.springhibernate.dao.PersonDao;
+
+public class PersonServiceImpl implements PersonService{
+
+	@Autowired
+	private PersonDao dao;
+	
+	@Override
+	public void addnewPerson(Person person) {
+	    @Autowired
+		private PersonDao dao;
+	}
+}
+

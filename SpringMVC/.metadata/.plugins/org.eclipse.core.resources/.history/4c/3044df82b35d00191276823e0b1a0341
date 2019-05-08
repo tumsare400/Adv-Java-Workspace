@@ -1,0 +1,32 @@
+package com.capgemini.spring.mvc.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.capgemini.spring.mvc.client.BankAccountClient;
+import com.capgemini.spring.mvc.controller.BankAccountController;
+import com.capgemini.spring.mvc.dao.BankAccountDao;
+
+
+public class BankAccountServiceImpl implements BankAccountService {
+	
+	@Autowired
+	private BankAccountDao bankAccountDao; 
+	 
+	 
+	 
+		@Override
+		public void addNew(Person person) {
+
+		}
+	 
+	 	@Override 
+	 	public void addNewBankAccount(BankAccountClient account) { 
+	 		boolean result = bankAccountDao.addNewBankAccount(account); 
+	 		//if (result) 
+				//DbUtil.commmit(); 
+			return result; 
+ 
+	 
+ 	} 
+
+}

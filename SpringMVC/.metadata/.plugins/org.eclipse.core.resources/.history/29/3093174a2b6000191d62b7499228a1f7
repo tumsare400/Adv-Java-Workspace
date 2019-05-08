@@ -1,0 +1,8 @@
+package com.capgemini.springhibernate.service;
+
+import com.capgemini.demoHibernste.person.Person;
+
+public interface PersonService {
+	
+  public void addnewPerson(Person person);
+}

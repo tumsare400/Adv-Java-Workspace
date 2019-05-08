@@ -1,0 +1,13 @@
+package com.capgemini.demoHibernste;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DemoHibernsteApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoHibernsteApplication.class, args);
+	}
+
+}

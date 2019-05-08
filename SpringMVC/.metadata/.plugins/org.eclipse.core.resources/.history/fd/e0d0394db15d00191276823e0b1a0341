@@ -1,0 +1,14 @@
+package com.capgemini.spring.mvc.dao;
+import java.util.List;
+
+import com.capgemini.spring.mvc.controller.BankAccountController;
+
+import com.capgemini.spring.mvc.exception.AccountNotFoundException;
+
+public interface BankAccountDao {
+	
+	
+	public boolean addNewBankAccount(BankAccountController account);
+
+	
+}

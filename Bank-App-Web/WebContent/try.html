@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Online Net Banking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <form style="margin-top:50px">
+            <div class="form-row">
+                <div class="col-md-4">
+                    <label for="validationServer01">Name</label>
+
+                    <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name"
+                        required>
+                    <div class="invalid-feedback">
+                        Please choose a name.
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <label>Contact Number</label>
+                    <input type="tel" class="form-control" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="validationServerUsername" class="text-dark">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Example@gmail.com"
+                        data-error="Bruh, that email address is invalid" required>
+                    <div class="invalid-feedback">
+                        Please choose a username.
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for=" " class="text-dark">Customer Date_of_Birth</label>
+                    <input type="date" class="form-control" placeholder="Enter DOB" required>
+                </div>
+                <div class="form-group col-md-4">
+                    <label for=" " class="text-dark">Customer Address line</label>
+                    <input type="text" class="form-control" placeholder="Enter address" required>
+
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputCity" class="text-dark">City</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="" class="text-dark">State</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputpost" class="text-dark">Postal</label>
+                    <input type="number" class="form-control" required>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for="inputpost" class="text-dark">Gender:</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1"
+                            class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1" required>Male</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1"
+                            class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2" class="text-white"
+                            required>Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-12">
+                    <label for=" " class="text-dark">Account Type:</label>
+                    <div class="form-group form-check custom-control-inline">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Saving</label>
+                    </div>
+                    <div class="form-group form-check custom-control-inline">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Current</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn bg-white text-dark btn-outline-dark"
+                    style="margin-left:10px;">Submit</button>
+            </div>
+</body>
+
+</html>
